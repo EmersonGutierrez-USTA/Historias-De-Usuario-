@@ -1,2 +1,2 @@
 # Historias-De-Usuario-
-Codigo  Menú, Medicamentos Insumos, Medicamentos, Exámenes, Citas.
+Codigo Realizado por Emerson Gutierrez Menú, Medicamentos Insumos, Medicamentos, Exámenes, Citas.
