@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autorización de Citas 2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/55ce073cdc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="content">
+               
+                <div class="user-info">
+                    <h2>Nombre</h2>
+                    <p>¡Información vital al instante!</p>
+                </div>
+                <div class="profile-pic"><img src="PaolaOjeda.png" alt="Paola Ojeda" class="profile-pic"></div>
+            </div>
+        </header>  
+       
+      <section id="section">
+            <div class="order-section">
+                <div class="order-step">
+                    <button class="step-button">1</button>
+                    <p>Ordenar</p>
+                </div>
+                <div class="order-step">
+                    <button class="step-button">2</button>
+                    <p>Autorizar</p>
+                </div>
+                <div class="order-step">
+                    <button class="step-button">3</button>
+                    <p>Programar</p>
+                </div>
+            </div>
+        </section>
+       
+
+        <form class="appointment-form">
+            <div class="input-group">
+                <label for="Institución"></label>
+                <input type="text" id="Institución" placeholder="Institución">
+            </div>
+            <div class="input-group">
+                <label for="Doctor"></label>
+                <input type="text" id="Doctor" placeholder="Doctor">
+            </div>
+
+            <div class="row">
+                <div class="input-group small-input">
+                    <label for="Especialidad"></label>
+                    <input type="text" id="Especialidad" placeholder="Especialidad">
+                </div>
+                <div class="input-group small-input">
+                    <label for="Teléfono"></label>
+                    <input type="text" id="Teléfono" placeholder="Teléfono">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="Dirección"></label>
+                <input type="text" id="Dirección" placeholder="Dirección">
+            </div>
+            <div class="input-group">
+                <label for="Consultorio"></label>
+                <input type="text" id="Consultorio" placeholder="Consultorio">
+            </div>
+            <div class="input-group">
+                <label for="Fecha"></label>
+                <input type="text" id="Fecha" placeholder="Fecha y hora de la cita">
+            </div>
+            <div class="input-group">
+                <label for="Estado"></label>
+                <input type="text" id="Estado" placeholder="Estado">
+            </div>
+
+            
+        </form>
+        
+        <button class="save-button">Guardar</button>
+        <br>
+        <div class="footer">
+            <button class="footer-button"> <i class="fa-solid fa-heart-pulse"></i> Parámetros Médicos</button>
+            <button class="footer-button"> <i class="fa-solid fa-suitcase-medical"></i> Servicios de Salud</button>
+            <button class="footer-button"> <i class="fa-solid fa-syringe"></i> Control Medicamentos</button>
+            <button class="footer-button"> <i class="fa-solid fa-user-nurse"></i> Control Citas</button>
+            <button class="footer-button"> <i class="fa-solid fa-user-injured"></i> Seguimiento de Síntomas</button>
+        
+        </div>
+        
+    </div>
+
+</body>
+</html>
